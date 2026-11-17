@@ -96,10 +96,10 @@ function Hero() {
           <div className="max-w-2xl">
             <R><Pill dark>Feito para afiliados Shopee com CNPJ</Pill></R>
             <h1 className="mt-6 text-4xl font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:text-[4rem]">
-              <Words text="A emissão de notas feita especialmente para" />
-              <Words text="afiliados da Shopee" className="text-accent" start={420} />
+              <Words text="A emissão de notas de notas feita especialmente para" />
+              <Words text="afiliados  da Shopee" className="text-accent" start={420} />
             </h1>
-            <R d={500}><p className="mt-6 max-w-xl text-lg leading-8 text-hero-foreground/75">Chega de perder o fim de semana digitando nota por nota: suba o relatório da Shopee, confira tudo em poucos cliques e emita todas as suas notas de uma vez.</p></R>
+            <R d={500}><p className="mt-6 max-w-xl text-lg leading-8 text-hero-foreground/75">Chega de perder o fim de semana digitando nota por nota: suba o relatório da Shopee, confira tudo em poucos cliques {'\n'}e emita todas as suas notas de uma vez.</p></R>
             <R d={650} className="mt-9 flex flex-col gap-3 sm:flex-row">
               <a href={APP} className="group inline-flex h-14 items-center justify-center gap-2 rounded-full bg-accent-gradient px-7 font-semibold text-accent-foreground shadow-glow transition hover:-translate-y-0.5">Simular com minhas notas <ArrowRight className="size-4 transition group-hover:translate-x-1" /></a>
               <a href="#planos" className="inline-flex h-14 items-center justify-center gap-2 rounded-full border border-hero-foreground/25 bg-hero-foreground/5 px-7 font-medium backdrop-blur transition hover:bg-hero-foreground/10">Conferir planos e preços</a>
