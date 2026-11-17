@@ -261,7 +261,7 @@ function Depoimentos() {
                 <Quote className="size-8 text-accent animate-icon" style={{ animationDelay: `${i * .4}s` }} />
                 <div className="mt-4 flex gap-0.5">{Array.from({ length: 5 }).map((_, k) => <Star key={k} className="size-4 fill-accent text-accent" />)}</div>
                 <blockquote className="mt-4 flex-1 leading-7">“{t}”</blockquote>
-                <figcaption className="mt-6 flex items-center gap-3"><span className="grid size-10 place-items-center rounded-full bg-primary font-semibold text-primary-foreground">{n[0]}</span><div><strong className="block text-sm">{n}</strong><span className="text-xs text-muted-foreground">{r}</span></div></figcaption>
+                <figcaption className="mt-6 flex items-center gap-3"><span className="grid size-10 place-items-center rounded-full bg-primary font-semibold text-primary-foreground">{n.charAt(0)}</span><div><strong className="block text-sm">{n}</strong><span className="text-xs text-muted-foreground">{r}</span></div></figcaption>
               </figure>
             </R>
           ))}
