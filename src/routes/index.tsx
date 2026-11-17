@@ -242,7 +242,7 @@ function Beneficios() {
   );
 }
 
-const depo = [
+const depo: [string, string, string][] = [
   ["Mariana S.", "Afiliada Shopee", "Eu passava o domingo inteiro emitindo nota. Agora subo o relatório, confiro e emito tudo de uma vez."],
   ["Rafael M.", "Afiliado PJ", "A conferência antes de emitir me deu segurança. Nunca mais emiti nota duplicada."],
   ["Juliana T.", "Afiliada Shopee e Magalu", "Minhas vendas cresceram e o fechamento não virou pesadelo. Vale cada centavo."],
