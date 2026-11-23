@@ -87,8 +87,8 @@ function Header() {
 
 function Hero() {
   return (
-    <section id="inicio" className="p-2 sm:p-3">
-      <div className="relative overflow-hidden rounded-[2rem] bg-hero text-hero-foreground">
+    <section id="inicio">
+      <div className="relative overflow-hidden bg-hero text-hero-foreground">
         <img src={hero} alt="" width={1600} height={1104} className="absolute inset-0 h-full w-full object-cover object-right opacity-90" />
         <div className="absolute inset-0 bg-gradient-to-r from-hero via-hero/85 to-hero/10" />
         <div className="absolute inset-0 grid-lines opacity-[0.06]" />
@@ -96,8 +96,8 @@ function Hero() {
           <div className="max-w-2xl">
             <R><Pill dark>Feito para afiliados Shopee com CNPJ</Pill></R>
             <h1 className="mt-6 text-4xl font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:text-[4rem]">
-              <Words text="A emissão de notas de notas feita especialmente para" />
-              <Words text="afiliados  da Shopee" className="text-accent" start={420} />
+              <Words text="A emissão de notas feita especialmente para" />
+              <Words text="afiliados da Shopee" className="text-accent" start={420} />
             </h1>
             <R d={500}><p className="mt-6 max-w-xl text-lg leading-8 text-hero-foreground/75">Chega de perder o fim de semana digitando nota por nota: suba o relatório da Shopee, confira tudo em poucos cliques {'\n'}e emita todas as suas notas de uma vez.</p></R>
             <R d={650} className="mt-9 flex flex-col gap-3 sm:flex-row">
