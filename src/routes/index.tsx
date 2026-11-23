@@ -8,6 +8,7 @@ import {
 import logo from "@/assets/logo-emissor.png";
 import logoNeg from "@/assets/logo-emissor-negativo.png";
 import hero from "@/assets/hero-notas.jpg";
+import { Diagnostico } from "@/components/Diagnostico";
 
 const TITLE = "Emissor Inteligente — Emissão de notas para afiliados da Shopee";
 const DESC = "Suba o relatório da Shopee, confira tudo em poucos cliques e emita todas as suas notas de uma vez.";
@@ -375,7 +376,7 @@ function Index() {
   const ref = useRef(null);
   return (
     <main ref={ref} className="min-h-screen bg-background">
-      <Header /><Hero /><Marquee /><Dores /><Como /><Beneficios /><Depoimentos /><Planos /><Faq /><Cta />
+      <Header /><Hero /><Marquee /><Dores /><Como /><Beneficios /><Depoimentos /><Diagnostico app={APP} /><Planos /><Faq /><Cta />
     </main>
   );
 }
