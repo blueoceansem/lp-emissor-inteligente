@@ -182,7 +182,7 @@ function Como() {
     [Settings2, "Configuração inicial", "cadastre empresa, dados fiscais e certificado A1."],
     [FileSpreadsheet, "Relatório da Shopee", "exporte o relatório mensal de comissões (.csv/.xlsx)."],
     [Upload, "Importar e revisar", "a plataforma organiza os dados e você confere cada informação antes de emitir."],
-    [FileText, "Emitir e consultar", "Confirme a emissão em lote e baixe o PDF e XML de cada nota no painel, receba tudo automaticamente direto no e-mail."],
+    [FileText, "Emitir e consultar", "Confirme a emissão em lote e baixe o PDF e o XML de cada nota no painel. As notas fiscais são enviadas automaticamente para o e-mail dos vendedores."],
   ] as const;
   return (
     <section id="como-funciona" className="scroll-mt-20 p-2 sm:p-3">
