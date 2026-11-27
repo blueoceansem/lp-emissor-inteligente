@@ -102,7 +102,7 @@ function Hero() {
             </h1>
             <R d={500}><p className="mt-6 max-w-xl text-lg leading-8 text-hero-foreground/75">Chega de perder o fim de semana digitando nota por nota: suba o relatório da Shopee, confira tudo em poucos cliques {'\n'}e emita todas as suas notas de uma vez.</p></R>
             <R d={650} className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <a href={APP} className="group inline-flex h-14 items-center justify-center gap-2 rounded-full bg-accent-gradient px-7 font-semibold text-accent-foreground shadow-glow transition hover:-translate-y-0.5">Simular com minhas notas <ArrowRight className="size-4 transition group-hover:translate-x-1" /></a>
+              <a href="#diagnostico" className="group inline-flex h-14 items-center justify-center gap-2 rounded-full bg-accent-gradient px-7 font-semibold text-accent-foreground shadow-glow transition hover:-translate-y-0.5">Simular com minhas notas <ArrowRight className="size-4 transition group-hover:translate-x-1" /></a>
               <a href="#planos" className="inline-flex h-14 items-center justify-center gap-2 rounded-full border border-hero-foreground/25 bg-hero-foreground/5 px-7 font-medium backdrop-blur transition hover:bg-hero-foreground/10">Conferir planos e preços</a>
             </R>
             <R d={800}><p className="mt-8 text-sm text-hero-foreground/60">Também funciona para afiliados outros marketplaces: Shopee, Mercado Livre, Amazon e Magalu.</p></R>
@@ -360,7 +360,7 @@ function Cta() {
         <R className="relative mx-auto max-w-3xl">
           <h2 className="text-3xl font-semibold leading-tight tracking-tight sm:text-5xl">Pronto para fechar o mês <span className="text-accent">sem digitar nota por nota?</span></h2>
           <a href={APP} className="group mt-10 inline-flex h-14 items-center gap-2 rounded-full bg-accent-gradient px-8 font-semibold text-accent-foreground shadow-glow transition hover:-translate-y-0.5">Começar grátis <ArrowRight className="size-4 transition group-hover:translate-x-1" /></a>
-          <p className="mt-5 text-sm text-hero-foreground/70">Experimente por 7 dias, sem cartão e sem compromisso.</p>
+          <p className="mt-5 text-sm text-hero-foreground/70">Experimente por 7 dias sem compromisso.</p>
         </R>
         <footer className="relative mx-auto mt-24 flex max-w-7xl flex-col items-center justify-between gap-4 border-t border-hero-foreground/10 pt-8 text-sm text-hero-foreground/60 sm:flex-row">
           <img src={logoNeg} alt="Emissor Inteligente" loading="lazy" className="h-9 w-auto" width={115} height={36} />
